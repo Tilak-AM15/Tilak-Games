@@ -1,0 +1,68 @@
+      body {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background: #f3f4f6;
+          font-family: Arial, sans-serif;
+      }
+
+      #btn {
+          background: linear-gradient(135deg, #4f46e5, #3b82f6);
+          color: white;
+          font-size: 16px;
+          font-weight: 600;
+          padding: 12px 24px;
+          border: none;
+          border-radius: 12px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+          margin-bottom: 20px;
+      }
+
+      #btn:hover {
+          background: linear-gradient(135deg, #4338ca, #2563eb);
+          transform: translateY(-2px) scale(1.03);
+          box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+      }
+
+      #result {
+          font-size: 18px;
+          font-weight: bold;
+          color: #111827;
+      }
+
+      .para {
+          font-size: 16px;
+          background: #e0f2fe;
+          /* light blue */
+          color: #075985;
+          /* dark blue */
+          padding: 12px 18px;
+          border-radius: 10px;
+          border: 1px solid #38bdf8;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          /* spacing between image and text */
+      }
+
+      .para-icon {
+          width: 24px;
+          height: 24px;
+      }
+
+      a {
+          font-size: 28px;
+          color: #333;
+          text-decoration: none;
+          transition: color 0.3s ease;
+      }
+
+      a:hover {
+          color: #6c7bff;
+          /* change color on hover */
+      }
